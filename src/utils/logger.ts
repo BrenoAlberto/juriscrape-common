@@ -1,7 +1,7 @@
 import { createLogger, transports, format, config } from 'winston'
 import DailyRotateFile from 'winston-daily-rotate-file'
 
-const logger = createLogger({
+export const logger = createLogger({
   levels: config.syslog.levels,
   format: format.combine(
     format.timestamp(),
@@ -35,5 +35,3 @@ const logger = createLogger({
     })
   ]
 })
-
-export default logger
