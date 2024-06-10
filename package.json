@@ -1,5 +1,5 @@
 {
-  "name": "@tjcommon/common",
+  "name": "@juriscrape/common",
   "version": "1.0.4",
   "description": "",
   "main": "./build/index.js",
